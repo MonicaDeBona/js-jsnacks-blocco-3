@@ -1,15 +1,18 @@
 // Continuare a chiedere all'utente un numero tra 1 e 10 fino a quando l'utente non inserisce il valore corretto
 
-let userNumber = parseInt(prompt('Inserisci un numero tra 1 e 10'));
+// let userNumber = parseInt(prompt('Inserisci un numero tra 1 e 10'));
 
-const myNum = 7;
+// while ((userNumber > 10) || (userNumber < 1)) {
+//     userNumber = parseInt(prompt('Inserisci un numero tra 1 e 10'));
+// }
 
-// continuo a chiedere il numero all'utente finchè non inserisce il 7
+// let userNumber = 0;
 
-while (userNumber !== myNum) {
-    userNumber = parseInt(prompt('Inserisci un numero tra 1 e 10'));
-}
+// while (userNumber < 1 || userNumber > 10) {
+//     userNumber = parseInt(prompt('Inserisci un numero tra 1 e 10'));
+//     console.log(userNumber);
+// }
 
-console.log(userNumber);
+
 
 
