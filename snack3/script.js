@@ -20,7 +20,7 @@ while (minArr.length !== majArr.length) {
     if (minArr.length < majArr.length) {
         minArr.push(Math.floor(Math.random() * 10));
 
-    } else if (minArr.length > majArr.length) {
+    } else {
         majArr.push(Math.floor(Math.random() * 10));
     }
 }
