@@ -6,31 +6,26 @@
     e nel div verde se è un numero pari.
 */
 
+const array = [1,33,55,64,33,22,10,44];
+
 /*
 funzione che crei un nuovo elemento <p> </p>
 restituirlo a chi invoca la funzione
-
-ciclo per ogni elemento dell'array
-se l'elemento è un numero pari, crei nuovo elemento e lo aggiungo al div verde
-se l'elemento è un numero dispari, creo  nuovo elemento e lo aggiungo al div rosso
 */
-
-
-const array = [1,33,55,64,33,22,10,44];
-
 function newElement(content) {
-
     const paragraph = document.createElement('p');
     paragraph.innerText = content;
     return paragraph;
-
 }
 
 const divRed = document.getElementById('red');
 const divGreen = document.getElementById('green');
 
-
-
+/*
+Ciclo per ogni elemento dell'array
+    se l'elemento è un numero pari, crei nuovo elemento e lo aggiungo al div verde
+    se l'elemento è un numero dispari, creo  nuovo elemento e lo aggiungo al div rosso
+*/
 for ( let i = 0; i < array.length; i++) {
     if (array[i] % 2 === 0) {
         divGreen.appendChild(newElement(array[i]));

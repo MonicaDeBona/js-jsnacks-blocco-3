@@ -14,4 +14,3 @@ while (somma < 50) {
 
 console.log(somma);
 console.log(myArray);
-console.log(userNumber);
